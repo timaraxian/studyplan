@@ -1,0 +1,43 @@
+digraph {
+  start [shape=point]
+  node [style=filled]
+
+  sC,sF,sH [fillcolor=green]
+  pA,pB,pC [fillcolor=lightblue]
+  cA,cB,cD [fillcolor=pink]
+  oA [fillcolor=lavender]
+  cC [fillcolor=orange]
+
+  cA [label="Course:ML-Regression"]
+  cB [label="Course:DeepLearning-Specialisation"]
+  cC [label="Course:Algs"]
+  cD [label="Course:ML-Specialisation"]
+
+  sC [label="Book:Keras"]
+  sF [label="Book:Postgres"]
+  sH [label="Book:GoWebApps"]
+
+  pA [label="Delaunay"]
+  pB [label="AuthApp"]
+  pC [label="FinanceTracker"]
+
+  oA [label="Course:Moralities"]
+
+  sH -> pB
+  sF -> pB
+
+  sH -> pC
+
+  cA -> cB
+  cB -> sC
+  sC -> cD
+
+  cC -> pA
+
+  start -> cA
+  start -> sF
+  start -> sH
+  start -> cC
+  start -> oA
+
+}
