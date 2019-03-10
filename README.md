@@ -1,5 +1,7 @@
 # Study Plan
 
+![Graph of study plan](dotfiles/overview.dot.png)
+
 ## Computer Science
 
 #### [Standford University Algorithms Specialisation]()
