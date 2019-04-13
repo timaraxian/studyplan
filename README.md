@@ -50,6 +50,7 @@ todo
 
 ## Projects
 
+- [ ] Sudoku Solver
 - [ ] Auth app
 - [ ] Delaunay Triangulation
 - [ ] Finance Tracker
