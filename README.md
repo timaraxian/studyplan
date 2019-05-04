@@ -50,7 +50,7 @@ todo
 
 ## Projects
 
-- [ ] Sudoku Solver
+- [ ] [Sudoku Solver](https://github.com/timaraxian/sudoku-solver)
 - [ ] Auth app
 - [ ] Delaunay Triangulation
 - [ ] Finance Tracker
